@@ -1,0 +1,32 @@
+    1  mkdir 20230605-ArmandoLopez
+    2  cd 20230605-ArmandoLopez/
+    3  ls
+    4  git init
+    5  git branch -M main
+    6  git remote add origin https://github.com/kunoichitzu/20230605-ArmandoLopez.git
+    7  touch comandos.txt main.js index.html
+    8  ls
+    9  git commit -m "commit 01 de ArmandoLopez"
+   10  git add .
+   11  git status
+   12  git commit -m "commit 02 de ArmandoLopez"
+   13  git push origin main
+   14  git checkout -b feature
+   15  mkdir Hardware Software SeguridadInformatica
+   16  ls
+   17  touch Hardware/resumen.txt
+   18  touch Software/resumen.txt
+   19  touch SeguridadInformatica/resumen.txt
+   20  git status
+   21  git add .
+   22  git commit -m "commit 03 de ArmandoLopez"
+   23  git push origin feature
+   24  git checkout main
+   25  mv main.js resumenHardware.txt
+   26  ls
+   27  mv index.html resumenSoftware.txt
+   28  ls
+   29  nano resumenSoftware.txt 
+   30  nano resumenHardware.txt 
+   31  history
+   32  history > comandos.txt 
